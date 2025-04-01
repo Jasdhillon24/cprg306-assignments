@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="p-6">
       <h1 className="text-2xl font-bold">CPRG 306: Web Development 2 - Assignments</h1>
-      <ul className="mt-4">
+      <ul className="mt-4 space-y-2">
         <li>
           <Link href="/week-2" className="text-blue-500 hover:underline">
             Go to Week 2 Assignment
@@ -18,6 +18,11 @@ export default function Home() {
         <li>
           <Link href="/week-4" className="text-blue-500 hover:underline">
             Go to Week 4 Assignment
+          </Link>
+        </li>
+        <li>
+          <Link href="/week-5" className="text-blue-500 hover:underline">
+            Go to Week 5 Assignment
           </Link>
         </li>
       </ul>
